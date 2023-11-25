@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.header img{
+    width:50px;
+    height:50px;
+    margin:30px;
+}
+
+ ul{
+    display: flex;
+    gap:20px;
+    font-size: 20px;
+    background-color: rgb(116, 158, 144);
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:100%;
+    justify-content: center;
+    margin:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    gap:30px;
+    padding:40px 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.leftbar{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.leftbar .main{
+    font-size: 48px;
+    font-weight: bold;
+    color:white;
+}
+
+.leftbar .secondary{
+    font-size: 18px;
+    color: white;
+}
+
+button{
+    background-color: rgb(60, 60, 107);
+    border-radius: 10px;
+    border-style:rounded;
+    height:50px;
+    width:100px;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+}
+
+.hero img{
+    border-radius: 10px;
+    width:auto;
+    height: auto;
+}
+
+.info{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px
+}
+.info .heading{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+    font-size: 18px;
+    flex-wrap: wrap;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.cards-container img{
+    border: 3px solid rgb(131, 125, 125);
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 172, 172);
+    font-size: 20px;
+    font-style: italic;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    background-color: rgb(197, 197, 245);
+    padding:50px;
+    border-radius: 10px;
+    margin:70px;
+    color: white;
+}
+
+.contact-box .heading{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 10px;    
+}
+.contact-box .seconary{
+    font-size: 23px;
+
+}
+
+.footer{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    text-decoration: underline;
+    font-style: oblique;
+    background-color: rgb(214, 191, 191);
+}
