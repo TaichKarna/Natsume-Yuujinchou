@@ -50,6 +50,19 @@ a{
     flex-wrap: wrap;
 }
 
+.natsume-gif{
+    border-radius: 10px;
+}
+@media(max-width:762px){
+    .hero{
+        padding: 40px 20px;
+    }
+    .natsume-gif{
+        width: 90%;
+        
+    }
+}
+
 .leftbar{
     flex:1;
     display:flex;
@@ -79,11 +92,7 @@ button{
     font-weight: bold;
 }
 
-.hero img{
-    border-radius: 10px;
-    width:auto;
-    height: auto;
-}
+
 
 .info{
     padding-top: 50px;
@@ -159,3 +168,4 @@ button{
     font-style: oblique;
     background-color: rgb(214, 191, 191);
 }
+
